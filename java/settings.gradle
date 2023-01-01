@@ -4,4 +4,6 @@ include 'multi-module:multi-module-core'
 findProject(':multi-module:multi-module-core')?.name = 'multi-module-core'
 include 'multi-module:multi-module-web'
 findProject(':multi-module:multi-module-web')?.name = 'multi-module-web'
+include 'java'
+include 'spring'
 
